@@ -15,6 +15,8 @@
 		2C9050441A6E360300E6A7FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9050431A6E360300E6A7FD /* Images.xcassets */; };
 		2C9050471A6E360300E6A7FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9050451A6E360300E6A7FD /* LaunchScreen.xib */; };
 		2C9050531A6E360400E6A7FD /* ZXToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050521A6E360400E6A7FD /* ZXToolsTests.m */; };
+		2C9050601A6E3AA100E6A7FD /* NSString+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C90505F1A6E3AA100E6A7FD /* NSString+Expand.m */; };
+		2C9050631A6E3E4100E6A7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9050621A6E3E4100E6A7FD /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		2C90504C1A6E360400E6A7FD /* ZXToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9050511A6E360400E6A7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9050521A6E360400E6A7FD /* ZXToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXToolsTests.m; sourceTree = "<group>"; };
+		2C90505E1A6E3AA100E6A7FD /* NSString+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Expand.h"; sourceTree = "<group>"; };
+		2C90505F1A6E3AA100E6A7FD /* NSString+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expand.m"; sourceTree = "<group>"; };
+		2C9050621A6E3E4100E6A7FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9050631A6E3E4100E6A7FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +93,8 @@
 				2C9050381A6E360300E6A7FD /* AppDelegate.m */,
 				2C90503D1A6E360300E6A7FD /* ViewController.h */,
 				2C90503E1A6E360300E6A7FD /* ViewController.m */,
+				2C90505C1A6E39A600E6A7FD /* Library */,
+				2C9050611A6E3DF800E6A7FD /* Framework */,
 				2C9050401A6E360300E6A7FD /* Main.storyboard */,
 				2C9050431A6E360300E6A7FD /* Images.xcassets */,
 				2C9050451A6E360300E6A7FD /* LaunchScreen.xib */,
@@ -120,6 +128,31 @@
 				2C9050511A6E360400E6A7FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C90505C1A6E39A600E6A7FD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2C90505D1A6E3A2A00E6A7FD /* NSString+Expand */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		2C90505D1A6E3A2A00E6A7FD /* NSString+Expand */ = {
+			isa = PBXGroup;
+			children = (
+				2C90505E1A6E3AA100E6A7FD /* NSString+Expand.h */,
+				2C90505F1A6E3AA100E6A7FD /* NSString+Expand.m */,
+			);
+			path = "NSString+Expand";
+			sourceTree = "<group>";
+		};
+		2C9050611A6E3DF800E6A7FD /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2C9050621A6E3E4100E6A7FD /* Foundation.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +257,7 @@
 			files = (
 				2C9050391A6E360300E6A7FD /* AppDelegate.m in Sources */,
 				2C9050361A6E360300E6A7FD /* main.m in Sources */,
+				2C9050601A6E3AA100E6A7FD /* NSString+Expand.m in Sources */,
 				2C90503F1A6E360300E6A7FD /* ViewController.m in Sources */,
 				2C90503C1A6E360300E6A7FD /* ZXTools.xcdatamodeld in Sources */,
 			);
@@ -416,6 +450,7 @@
 				2C9050581A6E360400E6A7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C9050591A6E360400E6A7FD /* Build configuration list for PBXNativeTarget "ZXToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				2C90505B1A6E360400E6A7FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
