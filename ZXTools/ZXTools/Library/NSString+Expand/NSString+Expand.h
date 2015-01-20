@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface NSString (Expand)
 #pragma mark - Filter String
 /**
