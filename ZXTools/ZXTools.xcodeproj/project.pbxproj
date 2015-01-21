@@ -20,6 +20,8 @@
 		2C9050651A6E41A800E6A7FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9050641A6E41A800E6A7FD /* QuartzCore.framework */; };
 		2C9050A71A6E50AA00E6A7FD /* KTKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050A61A6E50AA00E6A7FD /* KTKeyChainHelper.m */; };
 		2C9050A91A6E515600E6A7FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9050A81A6E515600E6A7FD /* Security.framework */; };
+		2C9050B11A6FA18D00E6A7FD /* UIAlertView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050B01A6FA18D00E6A7FD /* UIAlertView+Expand.m */; };
+		2C9050B51A6FA21700E6A7FD /* NSDate+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		2C9050A51A6E50AA00E6A7FD /* KTKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyChainHelper.h; sourceTree = "<group>"; };
 		2C9050A61A6E50AA00E6A7FD /* KTKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTKeyChainHelper.m; sourceTree = "<group>"; };
 		2C9050A81A6E515600E6A7FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2C9050AF1A6FA18D00E6A7FD /* UIAlertView+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Expand.h"; sourceTree = "<group>"; };
+		2C9050B01A6FA18D00E6A7FD /* UIAlertView+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Expand.m"; sourceTree = "<group>"; };
+		2C9050B31A6FA21700E6A7FD /* NSDate+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Expand.h"; sourceTree = "<group>"; };
+		2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Expand.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,8 @@
 		2C90505C1A6E39A600E6A7FD /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				2C9050B21A6FA1E800E6A7FD /* NSDate+Expand */,
+				2C9050AE1A6FA13600E6A7FD /* UIAlertView+Expand */,
 				2C9050A41A6E506900E6A7FD /* KTKeyChainHelper */,
 				2C90505D1A6E3A2A00E6A7FD /* NSString+Expand */,
 			);
@@ -174,6 +182,24 @@
 				2C9050A61A6E50AA00E6A7FD /* KTKeyChainHelper.m */,
 			);
 			path = KTKeyChainHelper;
+			sourceTree = "<group>";
+		};
+		2C9050AE1A6FA13600E6A7FD /* UIAlertView+Expand */ = {
+			isa = PBXGroup;
+			children = (
+				2C9050AF1A6FA18D00E6A7FD /* UIAlertView+Expand.h */,
+				2C9050B01A6FA18D00E6A7FD /* UIAlertView+Expand.m */,
+			);
+			path = "UIAlertView+Expand";
+			sourceTree = "<group>";
+		};
+		2C9050B21A6FA1E800E6A7FD /* NSDate+Expand */ = {
+			isa = PBXGroup;
+			children = (
+				2C9050B31A6FA21700E6A7FD /* NSDate+Expand.h */,
+				2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */,
+			);
+			path = "NSDate+Expand";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +305,8 @@
 				2C9050391A6E360300E6A7FD /* AppDelegate.m in Sources */,
 				2C9050361A6E360300E6A7FD /* main.m in Sources */,
 				2C9050601A6E3AA100E6A7FD /* NSString+Expand.m in Sources */,
+				2C9050B11A6FA18D00E6A7FD /* UIAlertView+Expand.m in Sources */,
+				2C9050B51A6FA21700E6A7FD /* NSDate+Expand.m in Sources */,
 				2C90503F1A6E360300E6A7FD /* ViewController.m in Sources */,
 				2C9050A71A6E50AA00E6A7FD /* KTKeyChainHelper.m in Sources */,
 				2C90503C1A6E360300E6A7FD /* ZXTools.xcdatamodeld in Sources */,
