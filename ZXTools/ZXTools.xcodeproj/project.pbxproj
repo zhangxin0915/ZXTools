@@ -22,6 +22,7 @@
 		2C9050A91A6E515600E6A7FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9050A81A6E515600E6A7FD /* Security.framework */; };
 		2C9050B11A6FA18D00E6A7FD /* UIAlertView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050B01A6FA18D00E6A7FD /* UIAlertView+Expand.m */; };
 		2C9050B51A6FA21700E6A7FD /* NSDate+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */; };
+		9A3F3A281C16E8EB00A74122 /* CYZBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3F3A271C16E8EB00A74122 /* CYZBaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		2C9050B01A6FA18D00E6A7FD /* UIAlertView+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Expand.m"; sourceTree = "<group>"; };
 		2C9050B31A6FA21700E6A7FD /* NSDate+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Expand.h"; sourceTree = "<group>"; };
 		2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Expand.m"; sourceTree = "<group>"; };
+		9A3F3A261C16E8EB00A74122 /* CYZBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYZBaseModel.h; sourceTree = "<group>"; };
+		9A3F3A271C16E8EB00A74122 /* CYZBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZBaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,7 @@
 		2C90505C1A6E39A600E6A7FD /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				9A3F3A251C16E89900A74122 /* CYZBaseModel */,
 				2C9050B21A6FA1E800E6A7FD /* NSDate+Expand */,
 				2C9050AE1A6FA13600E6A7FD /* UIAlertView+Expand */,
 				2C9050A41A6E506900E6A7FD /* KTKeyChainHelper */,
@@ -200,6 +204,15 @@
 				2C9050B41A6FA21700E6A7FD /* NSDate+Expand.m */,
 			);
 			path = "NSDate+Expand";
+			sourceTree = "<group>";
+		};
+		9A3F3A251C16E89900A74122 /* CYZBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A3F3A261C16E8EB00A74122 /* CYZBaseModel.h */,
+				9A3F3A271C16E8EB00A74122 /* CYZBaseModel.m */,
+			);
+			path = CYZBaseModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +321,7 @@
 				2C9050B11A6FA18D00E6A7FD /* UIAlertView+Expand.m in Sources */,
 				2C9050B51A6FA21700E6A7FD /* NSDate+Expand.m in Sources */,
 				2C90503F1A6E360300E6A7FD /* ViewController.m in Sources */,
+				9A3F3A281C16E8EB00A74122 /* CYZBaseModel.m in Sources */,
 				2C9050A71A6E50AA00E6A7FD /* KTKeyChainHelper.m in Sources */,
 				2C90503C1A6E360300E6A7FD /* ZXTools.xcdatamodeld in Sources */,
 			);
