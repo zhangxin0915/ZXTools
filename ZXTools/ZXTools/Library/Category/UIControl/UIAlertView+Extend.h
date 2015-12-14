@@ -1,14 +1,14 @@
 //
-//  UIAlertView+Expand.h
-//  ZXTools
+//  UIAlertView+Extend.h
+//  BCMSystem
 //
-//  Created by tarogo on 15-1-21.
-//  Copyright (c) 2015年 tarogo. All rights reserved.
-//
+//  Created by ccg on 14-4-17.
+//  Copyright (c) 2014年 mobisoft. All rights reserved.
+//  UIAlertView分类扩展方法
 
 #import <UIKit/UIKit.h>
 
-@interface UIAlertView (Expand)
+@interface UIAlertView (Extend)
 
 #pragma mark - Show Message
 
@@ -30,6 +30,7 @@
  *  @return
  */
 + (void)showMessage:(NSString *)message title:(NSString *)title;
+
 /**
  *  @brief  隐藏弹出框
  *

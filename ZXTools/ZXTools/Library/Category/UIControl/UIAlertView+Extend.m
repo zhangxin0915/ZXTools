@@ -1,14 +1,14 @@
 //
-//  UIAlertView+Expand.m
-//  ZXTools
+//  UIAlertView+Extend.m
+//  BCMSystem
 //
-//  Created by tarogo on 15-1-21.
-//  Copyright (c) 2015年 tarogo. All rights reserved.
+//  Created by ccg on 14-4-17.
+//  Copyright (c) 2014年 mobisoft. All rights reserved.
 //
 
-#import "UIAlertView+Expand.h"
+#import "UIAlertView+Extend.h"
 
-@implementation UIAlertView (Expand)
+@implementation UIAlertView (Extend)
 
 static UIAlertView *_alertView;
 
@@ -21,9 +21,6 @@ static UIAlertView *_alertView;
 + (void)showMessage:(NSString *)message title:(NSString *)title
 {
     [self dismissWithAnimated:NO];
-    if ([message rangeOfString:@"timed out"].length > 0) {
-        message = @"请求超时，请重试或联系技术支持!";
-    }
     
     _alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
     [_alertView show];

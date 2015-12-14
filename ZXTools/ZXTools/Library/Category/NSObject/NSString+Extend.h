@@ -1,15 +1,18 @@
 //
-//  NSString+Expand.h
-//  ZXTools
+//  NSString+Extend.h
+//  BCMSystem
 //
-//  Created by tarogo on 15-1-20.
-//  Copyright (c) 2015年 tarogo. All rights reserved.
-//
+//  Created by ccg on 14-4-18.
+//  Copyright (c) 2014年 mobisoft. All rights reserved.
+//  NSString分类扩展方法
 
 #import <Foundation/Foundation.h>
+#import "Configuration.h"
 
-@interface NSString (Expand)
+@interface NSString (Extend)
+
 #pragma mark - Filter String
+
 /**
  *  @brief  过滤字符串
  *
@@ -66,14 +69,6 @@
  */
 + (NSString *)stringFromNumber:(NSNumber *)number;
 
-/**
- *  @brief  格式化字符串 去掉空格和换行
- *
- *  @param string 过滤条件字符串
- *
- */
-+ (NSString *)filterWhitespaceAndNewline:(NSString *)string;
-
 #pragma mark - string size
 
 /**
@@ -83,7 +78,8 @@
  *
  *  @return CGSize
  */
-//- (CGSize)sizeFromFont:(UIFont *)font;
+- (CGSize)sizeFromFont:(UIFont *)font;
+
 /**
  *  @brief  比较字符串是否在范围内
  *
@@ -94,6 +90,7 @@
  *  @return bool         是否在范围内
  */
 - (BOOL)compareWithMin:(int)min max:(int)max subLength:(int)subLength;
+
 /**
  *  @brief  是否是数字
  *

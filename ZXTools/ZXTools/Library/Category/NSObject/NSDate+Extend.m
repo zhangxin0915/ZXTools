@@ -1,15 +1,14 @@
 //
-//  NSDate+Expand.m
-//  ZXTools
+//  NSDate+Extend.m
+//  BCMSystem
 //
-//  Created by tarogo on 15-1-21.
-//  Copyright (c) 2015年 tarogo. All rights reserved.
+//  Created by ccg on 14-4-18.
+//  Copyright (c) 2014年 mobisoft. All rights reserved.
 //
 
-#import "NSDate+Expand.h"
+#import "NSDate+Extend.h"
 
-@implementation NSDate (Expand)
-
+@implementation NSDate (Extend)
 
 #pragma mark - Custom Method
 
@@ -102,7 +101,7 @@
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [calendar components:NSWeekdayCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit fromDate:date];
     [components setDay: ([components day] - [components day] + 1 ) ];
-    
+
     NSDate *dateBefore = [calendar dateFromComponents:components];
     return dateBefore;
 }
@@ -238,7 +237,7 @@
             return @"星期五";
         case 7:
             return @"星期六";
-            
+         
     }
     return nil;
 }
@@ -446,7 +445,7 @@
 - (NSString *)getMonthStringInChinese{
     
     switch ([self getMonth]) {
-            
+
         case 1:
             return @"一月";
             break;
@@ -568,22 +567,15 @@
 
 
 + (NSArray *)getLast4QuaterInChineseWithDate:(NSDate *)date{
-    //NSMutableDictionary *quaterDic= [NSMutableDictionary dictionaryWithCapacity:4];
     NSMutableArray *quaterArray = [NSMutableArray arrayWithCapacity:4];
     [date dateBeforeMonth:3];
-    //    for (int i = 4; i > 0; i--) {
-    //        NSDate *qDate = [date dateBeforeMonth:3*i];
-    //
-    //        [quaterArray addObject:[NSString stringWithFormat:@"%i年第%i季度",[qDate getYear],[qDate getQuater]]];
-    //
-    //    }
     for (int i = 0; i <4 ; i++) {
         NSDate *qDate = [date dateBeforeMonth:3*i];
         
         [quaterArray addObject:[NSString stringWithFormat:@"%i年第%i季度",[qDate getYear],[qDate getQuater]]];
         
     }
-    
+
     return quaterArray;
 }
 
@@ -631,5 +623,9 @@
     
     
 }
+
+
+
+
 
 @end

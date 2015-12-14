@@ -1,15 +1,14 @@
 //
-//  NSDate+Expand.h
-//  ZXTools
+//  NSDate+Extend.h
+//  BCMSystem
 //
-//  Created by tarogo on 15-1-21.
-//  Copyright (c) 2015年 tarogo. All rights reserved.
-//
+//  Created by ccg on 14-4-18.
+//  Copyright (c) 2014年 mobisoft. All rights reserved.
+//  NSDate分类扩展方法
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (Expand)
-
+@interface NSDate (Extend)
 
 #pragma mark - Custom Method
 
