@@ -1,0 +1,12 @@
+/* 
+  AFExplain.strings
+  ZXTools
+
+  Created by macmini on 15/12/15.
+  Copyright © 2015年 tarogo. All rights reserved.
+*/
+/**导入这三个系统框架
+1.Security.framework
+2.MobileCoreServices.framework
+3.SystemConfiguration.framework
+*/
