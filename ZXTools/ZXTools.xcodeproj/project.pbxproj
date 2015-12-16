@@ -64,6 +64,8 @@
 		9A1E97451C1FB46E00F869B1 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E973A1C1FB46E00F869B1 /* UIRefreshControl+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E97461C1FB46E00F869B1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E973C1C1FB46E00F869B1 /* UIWebView+AFNetworking.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E97481C1FB81000F869B1 /* AFExplain.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A1E97471C1FB81000F869B1 /* AFExplain.strings */; settings = {ASSET_TAGS = (); }; };
+		9A2374BA1C2119470042736D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2374B71C2119470042736D /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		9A2374BB1C2119470042736D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2374B91C2119470042736D /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +195,9 @@
 		9A1E973B1C1FB46E00F869B1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		9A1E973C1C1FB46E00F869B1 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		9A1E97471C1FB81000F869B1 /* AFExplain.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AFExplain.strings; sourceTree = "<group>"; };
+		9A2374B71C2119470042736D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9A2374B81C2119470042736D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9A2374B91C2119470042736D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +291,7 @@
 		2C90505C1A6E39A600E6A7FD /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				9A2374B61C2119250042736D /* SVProgressHUD */,
 				9A1E97271C1FB44800F869B1 /* UIKit+AFNetworking */,
 				9A0F8BE11C1EBA2500E73185 /* AFNetWorking */,
 				9A0F8BB61C1EB90A00E73185 /* JsonKit */,
@@ -517,6 +523,16 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		9A2374B61C2119250042736D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9A2374B71C2119470042736D /* SVProgressHUD.bundle */,
+				9A2374B81C2119470042736D /* SVProgressHUD.h */,
+				9A2374B91C2119470042736D /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -597,6 +613,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2374BA1C2119470042736D /* SVProgressHUD.bundle in Resources */,
 				2C9050421A6E360300E6A7FD /* Main.storyboard in Resources */,
 				9A1E97481C1FB81000F869B1 /* AFExplain.strings in Resources */,
 				2C9050471A6E360300E6A7FD /* LaunchScreen.xib in Resources */,
@@ -659,6 +676,7 @@
 				9A0F8BF01C1EBADE00E73185 /* AFNetworkReachabilityManager.m in Sources */,
 				2C9050A71A6E50AA00E6A7FD /* KTKeyChainHelper.m in Sources */,
 				9A0F8B931C1EB32200E73185 /* UIImage+Extend.m in Sources */,
+				9A2374BB1C2119470042736D /* SVProgressHUD.m in Sources */,
 				9A0F8BB21C1EB7EB00E73185 /* NSDate+Extend.m in Sources */,
 				9A0F8B951C1EB32200E73185 /* UITextField+Extend.m in Sources */,
 				2C90503C1A6E360300E6A7FD /* ZXTools.xcdatamodeld in Sources */,
