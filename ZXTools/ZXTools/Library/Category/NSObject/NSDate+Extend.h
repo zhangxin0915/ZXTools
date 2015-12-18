@@ -446,5 +446,11 @@
  *  @return 1,2,3,4 季度
  */
 - (NSUInteger)getQuater;
+/**
+ *  @brief 根据string 判断是否是日期格式
+ *  default dateFormat yyyy-MM-dd
+ */
++ (BOOL)isDateWithString:(NSString *)dateStr;
+
 
 @end
