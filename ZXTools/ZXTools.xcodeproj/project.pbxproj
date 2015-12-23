@@ -49,7 +49,7 @@
 		9A0F8BF41C1EBADE00E73185 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F8BEE1C1EBADE00E73185 /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		9A0F8BF71C1EBB2800E73185 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F8BF61C1EBB2800E73185 /* IndexViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E97181C1FA23500F869B1 /* Para.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E97171C1FA23500F869B1 /* Para.m */; settings = {ASSET_TAGS = (); }; };
-		9A1E971B1C1FA24000F869B1 /* Dao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E971A1C1FA24000F869B1 /* Dao.m */; settings = {ASSET_TAGS = (); }; };
+		9A1E971B1C1FA24000F869B1 /* ZXHttpDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E971A1C1FA24000F869B1 /* ZXHttpDao.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E971E1C1FA24B00F869B1 /* Res.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E971D1C1FA24B00F869B1 /* Res.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E97221C1FAB3400F869B1 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E97211C1FAB3400F869B1 /* AFViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9A1E97241C1FAF7C00F869B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1E97231C1FAF7C00F869B1 /* MobileCoreServices.framework */; };
@@ -66,6 +66,8 @@
 		9A1E97481C1FB81000F869B1 /* AFExplain.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A1E97471C1FB81000F869B1 /* AFExplain.strings */; settings = {ASSET_TAGS = (); }; };
 		9A2374BA1C2119470042736D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A2374B71C2119470042736D /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
 		9A2374BB1C2119470042736D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2374B91C2119470042736D /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		9AEAA27A1C2AB18B00698B75 /* LoginPara.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEAA2791C2AB18B00698B75 /* LoginPara.m */; settings = {ASSET_TAGS = (); }; };
+		9AEAA27D1C2AB19C00698B75 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEAA27C1C2AB19C00698B75 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,8 +168,8 @@
 		9A0F8BF61C1EBB2800E73185 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 		9A1E97161C1FA23400F869B1 /* Para.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Para.h; sourceTree = "<group>"; };
 		9A1E97171C1FA23500F869B1 /* Para.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Para.m; sourceTree = "<group>"; };
-		9A1E97191C1FA24000F869B1 /* Dao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dao.h; sourceTree = "<group>"; };
-		9A1E971A1C1FA24000F869B1 /* Dao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dao.m; sourceTree = "<group>"; };
+		9A1E97191C1FA24000F869B1 /* ZXHttpDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHttpDao.h; sourceTree = "<group>"; };
+		9A1E971A1C1FA24000F869B1 /* ZXHttpDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHttpDao.m; sourceTree = "<group>"; };
 		9A1E971C1C1FA24B00F869B1 /* Res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Res.h; sourceTree = "<group>"; };
 		9A1E971D1C1FA24B00F869B1 /* Res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Res.m; sourceTree = "<group>"; };
 		9A1E97201C1FAB3400F869B1 /* AFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
@@ -198,6 +200,10 @@
 		9A2374B71C2119470042736D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		9A2374B81C2119470042736D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		9A2374B91C2119470042736D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9AEAA2781C2AB18B00698B75 /* LoginPara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPara.h; sourceTree = "<group>"; };
+		9AEAA2791C2AB18B00698B75 /* LoginPara.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPara.m; sourceTree = "<group>"; };
+		9AEAA27B1C2AB19C00698B75 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9AEAA27C1C2AB19C00698B75 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +254,7 @@
 				2C9050381A6E360300E6A7FD /* AppDelegate.m */,
 				9A0F8BF51C1EBB2800E73185 /* IndexViewController.h */,
 				9A0F8BF61C1EBB2800E73185 /* IndexViewController.m */,
+				9AEAA2711C2AB05600698B75 /* LoginViewController */,
 				9A1E971F1C1FAB0200F869B1 /* AF */,
 				9A0F8B771C1EAD2600E73185 /* Interface */,
 				9A0F8B761C1EACD400E73185 /* CommUI */,
@@ -336,8 +343,8 @@
 		9A0F8B771C1EAD2600E73185 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				9A1E97191C1FA24000F869B1 /* Dao.h */,
-				9A1E971A1C1FA24000F869B1 /* Dao.m */,
+				9A1E97191C1FA24000F869B1 /* ZXHttpDao.h */,
+				9A1E971A1C1FA24000F869B1 /* ZXHttpDao.m */,
 				9A1E97161C1FA23400F869B1 /* Para.h */,
 				9A1E97171C1FA23500F869B1 /* Para.m */,
 				9A1E971C1C1FA24B00F869B1 /* Res.h */,
@@ -533,6 +540,41 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		9AEAA2711C2AB05600698B75 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AEAA2741C2AB08600698B75 /* Models */,
+				9AEAA2731C2AB07E00698B75 /* Views */,
+				9AEAA2721C2AB07100698B75 /* Controllers */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		9AEAA2721C2AB07100698B75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AEAA27B1C2AB19C00698B75 /* LoginViewController.h */,
+				9AEAA27C1C2AB19C00698B75 /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AEAA2731C2AB07E00698B75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AEAA2741C2AB08600698B75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AEAA2781C2AB18B00698B75 /* LoginPara.h */,
+				9AEAA2791C2AB18B00698B75 /* LoginPara.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -639,6 +681,7 @@
 				9A1E97401C1FB46E00F869B1 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2C9050391A6E360300E6A7FD /* AppDelegate.m in Sources */,
 				9A0F8B961C1EB32200E73185 /* UITextView+Extend.m in Sources */,
+				9AEAA27D1C2AB19C00698B75 /* LoginViewController.m in Sources */,
 				9A1E97461C1FB46E00F869B1 /* UIWebView+AFNetworking.m in Sources */,
 				9A0F8BDE1C1EB9AD00E73185 /* NSArray+MASAdditions.m in Sources */,
 				9A1E97441C1FB46E00F869B1 /* UIProgressView+AFNetworking.m in Sources */,
@@ -662,13 +705,14 @@
 				2C9050361A6E360300E6A7FD /* main.m in Sources */,
 				9A0F8BF41C1EBADE00E73185 /* AFURLSessionManager.m in Sources */,
 				9A1E97221C1FAB3400F869B1 /* AFViewController.m in Sources */,
+				9AEAA27A1C2AB18B00698B75 /* LoginPara.m in Sources */,
 				9A0F8BA51C1EB53900E73185 /* MBProgressHUD.m in Sources */,
 				9A1E973E1C1FB46E00F869B1 /* AFAutoPurgingImageCache.m in Sources */,
 				9A0F8BDB1C1EB9AD00E73185 /* MASLayoutConstraint.m in Sources */,
 				9A0F8BDD1C1EB9AD00E73185 /* MASViewConstraint.m in Sources */,
 				9A0F8B8F1C1EB32200E73185 /* UIAlertView+Extend.m in Sources */,
 				9A0F8B941C1EB32200E73185 /* UILabel+Extend.m in Sources */,
-				9A1E971B1C1FA24000F869B1 /* Dao.m in Sources */,
+				9A1E971B1C1FA24000F869B1 /* ZXHttpDao.m in Sources */,
 				9A1E97431C1FB46E00F869B1 /* UIImageView+AFNetworking.m in Sources */,
 				9A1E971E1C1FA24B00F869B1 /* Res.m in Sources */,
 				9A0F8BE01C1EB9AD00E73185 /* View+MASAdditions.m in Sources */,
